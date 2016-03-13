@@ -16,14 +16,17 @@ Node.js prototypes
 		curl: curl -H "Content-Type: application/json" http://localhost:3000/products
 
 	(b) GET a product by id (GET - http://localhost:3000/products/56caa79338b4ca001e8677f5
+	
 		curl: curl -H "Content-Type: application/json" http://localhost:3000/products/56caa79338b4ca001e8677f5
 
 	(c) Create a product (POST) - http://localhost:3000/products
 		JSON Payload: {"productid":105, "name":"phone 3G", "description":"phone 3G 32GB", "color": "Silver"}
+		
 		curl: curl -H "Content-Type: application/json" -X POST -d '{"productid":105, "name":"phone 3G", "description":"phone 3G 32GB", "color": "Silver"}' http://localhost:3000/products
 
 	(d) Update a Product (PUT) - http://localhost:3000/products/56caa79338b4ca001e8677f5
 		JSON Payload: {"productid":105, "name":"phone 3G Black", "description":"phone 3G 64GB", "color": "Black"}
+		
 		curl: curl -H "Content-Type: application/json" -X PUT -d '{"productid":105, "name":"phone 3G Black", "description":"phone 3G 64GB", "color": "Black"}' http://localhost:3000/products/56caa79338b4ca001e8677f5
 
 	(e) Delete a Product (DELETE) - http://localhost:3000/products/56caa79338b4ca001e8677f5
