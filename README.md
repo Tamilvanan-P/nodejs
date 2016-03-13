@@ -12,6 +12,7 @@ Node.js prototypes
 	 (e) modified - Date
 5. The supported RESTful APIs are:
 	(a) GET all products (GET) - http://localhost:3000/products
+
 		curl: curl -H "Content-Type: application/json" http://localhost:3000/products
 
 	(b) GET a product by id (GET - http://localhost:3000/products/56caa79338b4ca001e8677f5
