@@ -1,5 +1,6 @@
 # nodejs
 Node.js prototypes
+
 1. This is a sample Node.js application with RESTful APIs for the basic CRUD operations on a sample Product resource
 2. Refer to the dependencies listed in package.json before running this application
 3. This application connects to the mongodb database called "demodb". Modify the dbUrl variable in demo.js to specify your own db url
